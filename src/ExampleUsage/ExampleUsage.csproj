@@ -11,4 +11,8 @@
     <ProjectReference Include="..\FluentHandlerValidation\FluentHandlerValidation.csproj" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+</PropertyGroup>
+
 </Project>
