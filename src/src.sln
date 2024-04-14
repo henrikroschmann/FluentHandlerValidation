@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentHandlerValidation", "FluentHandlerValidation\FluentHandlerValidation.csproj", "{98E33370-5021-44FD-8A47-5AEDE05715F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleUsage", "ExampleUsage\ExampleUsage.csproj", "{2BDC406C-441D-4581-B992-5B550416A881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E33370-5021-44FD-8A47-5AEDE05715F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E33370-5021-44FD-8A47-5AEDE05715F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E33370-5021-44FD-8A47-5AEDE05715F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E33370-5021-44FD-8A47-5AEDE05715F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDC406C-441D-4581-B992-5B550416A881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDC406C-441D-4581-B992-5B550416A881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDC406C-441D-4581-B992-5B550416A881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDC406C-441D-4581-B992-5B550416A881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96A2DD55-37DE-4B66-BA2E-7BF70D5DFC95}
+	EndGlobalSection
+EndGlobal
