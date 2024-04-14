@@ -10,7 +10,7 @@ This library provides a set of extension methods to create fluent and expressive
 -   **Readability:**  The fluent syntax improves code readability.
 -   **Customizable:**  Write your own validation functions that return Result types.
 
-# Installation
+# Installation (no yet)
 ```csharp
 dotnet add package FluentValidationPipeline
 ```
