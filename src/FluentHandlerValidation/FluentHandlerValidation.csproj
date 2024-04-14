@@ -9,10 +9,31 @@
   </PropertyGroup>
 
 	<PropertyGroup>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<RepositoryUrl>https://github.com/henrikroschmann/FluentHandlerValidation</RepositoryUrl>
 	</PropertyGroup>
 
+  <PropertyGroup>
+    <Authors>Henrik Röschmann</Authors>
+    <Description>A library providing extension methods to facilitate functional data handling, validation, and manipulation in C#, with a focus on robust error handling using Result types.</Description>
+
+    <!-- PackageProjectUrl is different from the repository URL. It can be a documentation
+         website or a website explaining the project -->
+    <PackageProjectUrl>https://github.com/henrikroschmann/FluentHandlerValidation</PackageProjectUrl>
+
+    <!-- A list of tags to help the search engine to understand the content of the package -->
+    <PackageTags>Data Handling, Data Validation, Error Handling, Result Type, Extension Methods, Result Monad, Data Pipelines, API Validation, Domain Modeling, Lightweight</PackageTags>
+  </PropertyGroup>
+
+   <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
 	<ItemGroup>
+	  <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	    <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
 	  <PackageReference Include="MinVer" Version="5.0.0">
 	    <PrivateAssets>all</PrivateAssets>
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
