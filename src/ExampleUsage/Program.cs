@@ -5,8 +5,8 @@
     LastName = "MyLastName"
 };
 
-var exampleHander = new UserHandler();
-var result = exampleHander.Handler(user);
+var exampleHandler = new UserHandler();
+var result = exampleHandler.Handler(user);
 if (result.IsSuccess)
 {
     Console.WriteLine($"User id is {result.Value}");
