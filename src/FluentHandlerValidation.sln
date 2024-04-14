@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentHandlerValidation", "FluentHandlerValidation\FluentHandlerValidation.csproj", "{98E33370-5021-44FD-8A47-5AEDE05715F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleUsage", "ExampleUsage\ExampleUsage.csproj", "{2BDC406C-441D-4581-B992-5B550416A881}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentHandlerValidation.Tests", "FluentHandlerValidation.Tests\FluentHandlerValidation.Tests.csproj", "{1E62097E-867A-469E-8FAF-04AB4C20945D}"
 EndProject
 Global
